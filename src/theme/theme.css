@@ -1,0 +1,65 @@
+/* ========================================
+   RESTAURANT MANAGEMENT SYSTEM
+   CENTRALIZED THEME
+======================================== */
+
+:root {
+  /* Brand Colors */
+  --brand-primary: #c2410c;
+  --brand-primary-hover: #9a3412;
+  --brand-secondary: #166534;
+  --brand-accent: #ea580c;
+
+  /* Background Colors */
+  --background-main: #fff7ed;
+  --background-surface: #ffffff;
+  --background-sidebar: #1c1917;
+
+  /* Text Colors */
+  --text-primary: #1c1917;
+  --text-secondary: #78716c;
+  --text-inverse: #ffffff;
+
+  /* Border */
+  --border-default: #e7e5e4;
+
+  /* Status Colors */
+  --status-success: #16a34a;
+  --status-warning: #d97706;
+  --status-danger: #dc2626;
+  --status-info: #2563eb;
+
+  /* Radius */
+  --radius-control-sm: 6px;
+  --radius-control-md: 10px;
+  --radius-control-lg: 16px;
+  --radius-control-xl: 24px;
+}
+
+/* Tailwind CSS v4 Theme Mapping */
+@theme inline {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-primary-hover: var(--brand-primary-hover);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+
+  --color-background-main: var(--background-main);
+  --color-background-surface: var(--background-surface);
+  --color-background-sidebar: var(--background-sidebar);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-inverse: var(--text-inverse);
+
+  --color-border-default: var(--border-default);
+
+  --color-status-success: var(--status-success);
+  --color-status-warning: var(--status-warning);
+  --color-status-danger: var(--status-danger);
+  --color-status-info: var(--status-info);
+
+  --radius-sm: var(--radius-control-sm);
+  --radius-md: var(--radius-control-md);
+  --radius-lg: var(--radius-control-lg);
+  --radius-xl: var(--radius-control-xl);
+}
